@@ -1,0 +1,60 @@
+.signupBox {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.signupBox h1 {
+  font-size: 28px;
+  text-align: center;
+  margin: 16px;
+  font-weight: 500;
+}
+.signupBox label {
+  font-size: 20px;
+  text-align: left;
+  margin: 12px 0 4px 0;
+}
+.signupBox span {
+  color: rgb(224, 70, 70);
+}
+.signupBox input {
+  width: 240px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  border: 1px solid #a7a7a7;
+  margin: 0px 0 12px 0;
+  font-size: 18px;
+}
+.signupBox input:focus {
+  outline: none;
+  border: 1px solid #00b96c;
+}
+.signupBox button {
+  width: 140px;
+  height: 50px;
+  border-radius: 16px;
+  border: none;
+  font-size: 18px;
+  margin: 16px 70px;
+  background-color: #00b96c;
+  color: #fff;
+}
+.signupBox button:hover {
+  cursor: pointer;
+}
+.signupBox button:disabled {
+  cursor: unset;
+  background-color: #649b84;
+}
+.signupBox a {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 16px;
+  text-decoration: none;
+}
+.signupBox p {
+  text-align: center;
+  /* margin: 16px 0; */
+  font-size: 16px;
+}

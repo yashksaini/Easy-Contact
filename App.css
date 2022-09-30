@@ -1,0 +1,180 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.contactBox {
+  width: 280px;
+  min-height: 480px;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 24px;
+  margin: 12px 0;
+}
+.contactBox h1 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
+  margin: 12px 0;
+}
+.contactBox h3 {
+  font-weight: 500;
+  text-align: center;
+  color: #3393ec;
+  font-size: 32px;
+  margin: 12px 0;
+}
+.contactBox p {
+  text-align: center;
+  margin: none;
+}
+.line {
+  width: 280px;
+  height: 1px;
+  background-color: #b8b8b8;
+  margin: 16px 0;
+}
+.allCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 500px;
+  margin: 10px 0;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0;
+}
+.card:hover {
+  cursor: pointer;
+}
+.cardImg {
+  width: 120px;
+  border-radius: 500px;
+  aspect-ratio: 1;
+}
+.display {
+  display: none;
+}
+.contact {
+  width: 280px;
+  min-height: 480px;
+  position: relative;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 24px;
+  margin: 12px 0;
+}
+/* CSS for Big Contact */
+
+.bigImg {
+  width: 240px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  margin: -10px 16px;
+}
+.showName {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.showNumber {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.back {
+  width: 60px;
+  font-size: 24px;
+  float: left;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #646464;
+  color: #fff;
+  border-radius: 100px;
+  margin: 12px 0 0 0;
+}
+.addBtn {
+  width: 60px;
+  font-size: 24px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3393ec;
+  color: #fff;
+  border-radius: 100px;
+  margin: 0 0 12px 0;
+}
+.logoutBtn {
+  width: 60px;
+  font-size: 24px;
+  float: right;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e24242;
+  color: #fff;
+  border-radius: 100px;
+  margin: 12px 0 0 0;
+}
+.remBtn {
+  width: 60px;
+  font-size: 24px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e24242;
+  color: #fff;
+  border-radius: 100px;
+}
+.call {
+  width: 60px;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  float: right;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #21b24b;
+  color: #fff;
+  border-radius: 100px;
+  margin: 12px 0 0 0;
+}
+.back:hover,
+.call:hover,
+.addBtn:hover,
+.logoutBtn:hover {
+  cursor: pointer;
+}
+.homeBtn {
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  margin: 64px 0 0 0;
+  text-align: center;
+  background-color: #3393ec;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+}
